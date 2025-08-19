@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  padding: 5px;
+}
+nav a{
+  text-decoration: none;
+  margin-left: 50px;
+  padding: 5px;
+}
+header {
+  background-color: violet;
+  height: 30px;
+
+}
+/* main div {
+  height: 100px;
+  width: 100px;
+  background: green;
+  border-radius: 50%;
+  text-align: center;
+} */
+
+/* #first{
+  height: 100px;
+  width: 100px;
+  display: inline;
+  background: pink;
+}
+#first{
+  height: 100px;
+  width: 100px;
+  display: inline;
+  background: pink;
+}
+#first{
+  height: 100px;
+  width: 100px;
+  display: inline;
+  background: pink;
+} */
+ .div{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  background-color: pink;
+  display: inline-block;
+}
+#forth {
+  position: fixed;
+  right: 10px
+}
+footer {
+  position: fixed;
+  bottom: 1px;
+  background-color: lavender;
+}
