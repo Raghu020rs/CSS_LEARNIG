@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    #but{
+      height: 20px;
+      width: 70px; 
+      border: 2px solid violet;
+      border-radius: 15%;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+      transition-delay: 1s;
+    }
+    #but:hover{
+      height: 25px;
+      width: 78px;
+      border: 5px solid red;
+      border-radius: 30%;
+    }
+    #but:active{
+      height: 25px;
+      width: 80px;
+      border: 1px solid red;
+      background-color: burlywood;
+    }
+  </style>
+</head>
+<body>
+  <button id="but">Click me</button>
+</body>
+</html>

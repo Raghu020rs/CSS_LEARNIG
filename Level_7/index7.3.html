@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <style>
+    #main{
+      height: 100px;
+      width: 100px;
+      border : 5px solid black;
+      border-radius: 15px;
+     
+      position: absolute;
+      background-color: lime;
+      animation-name: identifier;
+      animation-duration: 4s;
+      animation-delay: 0s;
+      animation-iteration-count: 4;
+      animation-direction: alternate-reverse;
+    }
+
+    @keyframes identifier {
+      from{ left: 100px}
+      to {left : 400px}
+    }
+
+  </style>
+</head>
+<body>
+  <div id ="main">Box</div>
+</body>
+</html>
